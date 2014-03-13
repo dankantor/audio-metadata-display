@@ -54,7 +54,6 @@ AudioMetadataDisplay.prototype.onPlaying = function(e){
 }
 
 AudioMetadataDisplay.prototype.set = function(song){
-    console.log('set', song);
     this.setCoverart(song);
     this.setTitle(song);
     this.setArtist(song);
