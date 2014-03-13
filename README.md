@@ -5,13 +5,13 @@ Uses PlayQueue to display coverart, title, artist and album html
 
 ## Install
 
-    npm install audio-metadata-controls
+    npm install audio-metadata-display
 
 
 ## Usage
 
-    var AudioMetadataControls = require('audio-metadata-controls');
-    var audioControls = new AudioMetadataControls(
+    var AudioMetadataDisplay = require('audio-metadata-display');
+    var audioMetadataDisplay = new AudioMetadataDisplay(
         {
             'playQueue': this.playQueue,
             'coverart': '#song-coverart',
