@@ -54,10 +54,12 @@ AudioMetadataDisplay.prototype.onPlaying = function(e){
 }
 
 AudioMetadataDisplay.prototype.set = function(song){
-    this.setCoverart(song);
-    this.setTitle(song);
-    this.setArtist(song);
-    this.setAlbum(song);
+    if(song){
+        this.setCoverart(song);
+        this.setTitle(song);
+        this.setArtist(song);
+        this.setAlbum(song);
+    }
 }
 
 AudioMetadataDisplay.prototype.setCoverart = function(song){
