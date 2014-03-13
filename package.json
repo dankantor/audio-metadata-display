@@ -1,0 +1,16 @@
+{
+  "author": "Dan Kantor <dan@ex.fm>",
+  "name": "audio-metadata-display",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dankantor/audio-metadata-display",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dankantor/audio-metadata-display.git"
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
