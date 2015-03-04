@@ -14,7 +14,10 @@ function AudioMetadataDisplay(opts){
     }
     this.cacheElements(opts);
     this.addListeners();
-    this.setInitital = opts.setInitial || true;
+    this.setInitital = true;
+    if(opts.setInitial === false){
+        this.setInitital = false;
+    }
     if(this.setInitital === true){
         if(this.playQueue !== null){
             var song = this.playQueue.getSong();
