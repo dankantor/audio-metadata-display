@@ -1,5 +1,9 @@
 {
-  "author": "Dan Kantor <dan@ex.fm>",
+  "author": {
+    "name": "Dan Kantor",
+    "email": "dan@ex.fm",
+    "url": "http://dankantor.com"
+  },
   "name": "audio-metadata-display",
   "description": "",
   "version": "0.0.5",
