@@ -13,6 +13,7 @@ function AudioMetadataDisplay(opts){
         'album': 'album'
     }
     this.cacheElements(opts);
+    this.playOrLoadEvent = opts.playOrLoadEvent || 'playing';
     this.addListeners();
     this.setInitital = true;
     if(opts.setInitial === false){
@@ -44,7 +45,7 @@ AudioMetadataDisplay.prototype.cacheElements = function(opts){
 AudioMetadataDisplay.prototype.addListeners = function(){
     if(this.playQueue !== null){
         this.playQueue.addEventListener(
-            'playing',
+            this.playOrLoadEvent,
             this.onPlaying.bind(this),
             false
         );

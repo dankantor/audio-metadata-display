@@ -2,7 +2,7 @@
   "author": "Dan Kantor <dan@ex.fm>",
   "name": "audio-metadata-display",
   "description": "",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/dankantor/audio-metadata-display",
   "repository": {
     "type": "git",
